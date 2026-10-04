@@ -14,8 +14,9 @@ I build infrastructure that makes autonomous agents trustworthy: metering, safet
 | [**Interlock**](https://github.com/marsojuji-cmyk/interlock) | Fault-tolerant safety substrate — leased authority, global e-stop, fault bus, provenance | `pip install interlock` |
 | [**Beacon**](https://github.com/marsojuji-cmyk/beacon) | Funding radar for independent builders in Calgary & Alberta — claim-tiered, self-verifying | — |
 | [**Exhibit**](https://github.com/marsojuji-cmyk/exhibit) | Open-source intelligence, presented as evidence — defensive posture with hash-chained receipts | — |
-| [**Intent Spec**](https://github.com/marsoji-cmyk/intent-spec) | Canonical intent → agent IR — compiles raw operator intent without becoming a second router | `python validator/validate.py` |
+| [**Intent Spec**](https://github.com/marsojuji-cmyk/intent-spec) | Canonical intent → agent IR — compiles raw operator intent without becoming a second router | `python validator/validate.py` |
 | [**Decision Algebra**](https://github.com/marsojuji-cmyk/decision-algebra) | Indicator Value Theorem — cold re-derivation of a 588-sample analysis, published with corrections | `python rederive.py` |
+| [**Quote Rescue**](https://github.com/marsojuji-cmyk/quote-rescue) | Local-first quote-to-decision-pack compiler — surfaces the questions a quote never answered instead of inventing them | [live demo](https://marsojuji-cmyk.github.io/quote-rescue/) |
 
 ---
 
@@ -48,7 +49,7 @@ Every system I build follows three principles:
 
 | Metric | Value |
 |---|---|
-| Public repositories | 15 |
+| Public repositories | 16 |
 | Tests passing | 98+ (Permit) · 50+ (Interlock) |
 | Lines of production code | ~15,000 |
 | Receipt chains generated | ∞ |
