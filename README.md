@@ -17,6 +17,7 @@ I build infrastructure that makes autonomous agents trustworthy: metering, safet
 | [**Intent Spec**](https://github.com/marsojuji-cmyk/intent-spec) | Canonical intent → agent IR — compiles raw operator intent without becoming a second router | `python validator/validate.py` |
 | [**Decision Algebra**](https://github.com/marsojuji-cmyk/decision-algebra) | Indicator Value Theorem — cold re-derivation of a 588-sample analysis, published with corrections | `python rederive.py` |
 | [**Quote Rescue**](https://github.com/marsojuji-cmyk/quote-rescue) | Local-first quote-to-decision-pack compiler — surfaces the questions a quote never answered instead of inventing them | [live demo](https://marsojuji-cmyk.github.io/quote-rescue/) |
+| [**Refinery**](https://github.com/marsojuji-cmyk/refinery) | Iteration training system — scores every idea, gates it, and banks the ones too early to ship instead of losing them | [live surface](https://marsojuji-cmyk.github.io/refinery/) |
 
 ---
 
@@ -49,7 +50,7 @@ Every system I build follows three principles:
 
 | Metric | Value |
 |---|---|
-| Public repositories | 16 |
+| Public repositories | 17 |
 | Tests passing | 98+ (Permit) · 50+ (Interlock) |
 | Lines of production code | ~15,000 |
 | Receipt chains generated | ∞ |
