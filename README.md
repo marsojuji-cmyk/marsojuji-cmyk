@@ -1,72 +1,42 @@
 # Marcus Richards
 
-**Building accountable AI agents in Calgary 🇨🇦**
+**I build guardrails for AI agents: spending limits, expiring authority, and a receipt for every claim.**
+Calgary, Alberta 🇨🇦 · [marcusrichards.dev](https://marcusrichards.dev)
 
-I build infrastructure that makes autonomous agents trustworthy: metering, safety substrates, and evidence ledgers. Every claim ships with a receipt.
+Agents are getting wallets, shells, and credentials. My work is the layer in between: what an agent is *allowed* to do, for how long, and what record it leaves. I prefer local-first tools with few dependencies, and READMEs that say what is proven and what isn't.
 
----
-
-## 🚀 What I'm Building
+## Start here
 
 | Project | What it does | Try it |
 |---|---|---|
-| [**Permit**](https://github.com/marsojuji-cmyk/permit) | Payment authority for AI agents — agents spend on permits, never on raw account access | `python demo.py` |
-| [**Interlock**](https://github.com/marsojuji-cmyk/interlock) | Fault-tolerant safety substrate — leased authority, global e-stop, fault bus, provenance | `pip install interlock` |
-| [**Beacon**](https://github.com/marsojuji-cmyk/beacon) | Funding radar for independent builders in Calgary & Alberta — claim-tiered, self-verifying | — |
-| [**Exhibit**](https://github.com/marsojuji-cmyk/exhibit) | Open-source intelligence, presented as evidence — defensive posture with hash-chained receipts | — |
-| [**Intent Spec**](https://github.com/marsojuji-cmyk/intent-spec) | Canonical intent → agent IR — compiles raw operator intent without becoming a second router | `python validator/validate.py` |
-| [**Decision Algebra**](https://github.com/marsojuji-cmyk/decision-algebra) | Indicator Value Theorem — cold re-derivation of a 588-sample analysis, published with corrections | `python rederive.py` |
-| [**Quote Rescue**](https://github.com/marsojuji-cmyk/quote-rescue) | Local-first quote-to-decision-pack compiler — surfaces the questions a quote never answered instead of inventing them | [live demo](https://marsojuji-cmyk.github.io/quote-rescue/) |
-| [**Refinery**](https://github.com/marsojuji-cmyk/refinery) | Iteration training system — scores every idea, gates it, and banks the ones too early to ship instead of losing them | [live surface](https://marsojuji-cmyk.github.io/refinery/) |
+| [**agentready**](https://github.com/marsojuji-cmyk/agentready) | Scores any website on how well AI agents can read, cite, and operate it: 15 checks, one file, zero dependencies | `node scan.mjs yoursite.com` · [scan my site via an issue](https://github.com/marsojuji-cmyk/agentready/issues/new?title=Scan%20my%20site&body=My%20website%20is%3A%20https%3A%2F%2F) · [site](https://marsojuji-cmyk.github.io/agentready/) |
+| [**Permit**](https://github.com/marsojuji-cmyk/permit) | Payment authority for AI agents. Agents spend on permits (cap, merchant allowlist, expiry, revocation), never on raw account access | `python demo.py` (mock mode, no credentials, no network) |
+| [**Interlock**](https://github.com/marsojuji-cmyk/interlock) | Leased authority, a global e-stop, a fault bus, and provenance for AI agent systems. Zero-dependency Python, v0.1.0 | `pip install -e ".[test]" && pytest -q` |
+| [**EP-AEC conformance**](https://github.com/marsojuji-cmyk/ep-aec-conformance) | Independent verifier for the EP-AEC Internet-Draft, built from the spec text alone; found a security-relevant bypass in the spec ([discussion](https://github.com/emiliaprotocol/emilia-protocol/issues/864)) | `python3 -m pytest tests/test_conformance.py` |
+| [**Quote Rescue**](https://github.com/marsojuji-cmyk/quote-rescue) | Turns a contractor quote into a decision pack that says "I don't know" where the quote was silent | [live demo](https://marsojuji-cmyk.github.io/quote-rescue/) |
+| [**Beacon**](https://github.com/marsojuji-cmyk/beacon) | Funding radar for independent builders in Calgary, Alberta, and Canada; every program carries a claim tier | [live](https://marsojuji-cmyk.github.io/beacon/) |
 
----
+<details>
+<summary>More: specs, methods, and research</summary>
 
-## ⚡ Quick Start
+- [**Exhibit**](https://github.com/marsojuji-cmyk/exhibit): defensive OSINT; every finding is a claim with a source, a timestamp, and a confidence tier
+- [**IntentSpec**](https://github.com/marsojuji-cmyk/intent-spec): a typed intermediate representation that compiles operator intent into existing agent machinery
+- [**The Adversarial Seat**](https://github.com/marsojuji-cmyk/adversarial-seat): a standing red-team method for agent-built work, with a worked example
+- [**The Register**](https://github.com/marsojuji-cmyk/the-register): a register of this account's public artifacts, compiled from named checks at run time
 
-```bash
-# Try Permit — no credentials needed
-git clone https://github.com/marsojuji-cmyk/permit
-cd permit
-python demo.py
-```
+</details>
 
-You'll see a complete agent transaction with 12 receipts — every decision, every payment, every audit trail.
+## How I build
 
----
+1. **Fail closed.** When something is ambiguous, deny and record why.
+2. **Claims carry receipts.** A README should say what is verified, what is in progress, and what is not claimed.
+3. **Agents don't hold credentials.** The authority check sits between intent and money.
 
-## 🧠 Operating Doctrine
+## Now
 
-> *Tokens are finite inventory. If it is not in the ledger, it did not happen.*
+- **Permit** for the [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/) (Nov 12, 2026)
+- **[interlock-forensics](https://github.com/marsojuji-cmyk/interlock-forensics)**: pre-registered provenance benchmark, gate 2026-10-27
 
-Every system I build follows three principles:
+## Get in touch
 
-1. **Fail closed.** If something goes wrong, deny access and receipt it. Never guess, never assume.
-2. **Every claim has a receipt.** No assertion survives without evidence. The ledger is the source of truth.
-3. **Agents don't hold credentials.** The authority layer sits between intent and money. Agents operate on permits, never on raw account access.
-
----
-
-## 📊 By the Numbers
-
-| Metric | Value |
-|---|---|
-| Public repositories | 17 |
-| Tests passing | 98+ (Permit) · 50+ (Interlock) |
-| Lines of production code | ~15,000 |
-| Receipt chains generated | ∞ |
-
-![Marcus's GitHub stats](https://github-readme-stats.vercel.app/api?username=marsojuji-cmyk&show_icons=true&theme=radical&hide_border=true&count_private=true&hide=stars,commits)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=marsojuji-cmyk&layout=compact&theme=radical&hide_border=true)
-
----
-
-## 📫 Let's Connect
-
-- 🌐 [marcusrichards.dev](https://marcusrichards.dev)
-- 📫 Open an issue or PR — I review everything within 24h
-- 💬 [Discussions](https://github.com/marsojuji-cmyk/marsojuji-cmyk/discussions) — questions, ideas, feedback
-
----
-
-*Calgary, AB · Building in the open*
+Found a bug or have a question? Open an issue on the relevant repo. For anything else: [marcusrichards.dev](https://marcusrichards.dev).
