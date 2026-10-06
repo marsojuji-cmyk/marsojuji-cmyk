@@ -22,9 +22,7 @@ Agents are getting wallets, shells, and credentials. My work is the layer in bet
 - [**Exhibit**](https://github.com/marsojuji-cmyk/exhibit): defensive OSINT; every finding is a claim with a source, a timestamp, and a confidence tier
 - [**IntentSpec**](https://github.com/marsojuji-cmyk/intent-spec): a typed intermediate representation that compiles operator intent into existing agent machinery
 - [**The Adversarial Seat**](https://github.com/marsojuji-cmyk/adversarial-seat): a standing red-team method for agent-built work, with a worked example
-- [**Decision Algebra**](https://github.com/marsojuji-cmyk/decision-algebra): a cold re-derivation of a 588-sample analysis, published with its corrections
 - [**The Register**](https://github.com/marsojuji-cmyk/the-register): a register of this account's public artifacts, compiled from named checks at run time
-- [**Refinery**](https://github.com/marsojuji-cmyk/refinery): score, gate, ship, or bank ideas ([live](https://marsojuji-cmyk.github.io/refinery/))
 
 </details>
 
