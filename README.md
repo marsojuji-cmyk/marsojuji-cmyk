@@ -40,4 +40,4 @@ Agents are getting wallets, shells, and credentials. My work is the layer in bet
 
 ## Get in touch
 
-Found a bug or have a question? Open an issue on the relevant repo. For anything else: [marcusrichards.dev](https://marcusrichards.dev).
+Found a bug or have a question? Open an issue on the relevant repo. For anything else: [Contact@marcusrichards.dev](mailto:Contact@marcusrichards.dev) · [marcusrichards.dev](https://marcusrichards.dev).
