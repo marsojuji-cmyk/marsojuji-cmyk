@@ -19,10 +19,10 @@ Updated 2026-10-07 MT. Rank comes from shipping evidence: tests, releases, deadl
 | 4 | `B_506` | [ep-aec-conformance](https://github.com/marsojuji-cmyk/ep-aec-conformance) | evidence | Tests green in CI; evidence committed; no release yet | cut a release (+68) |
 | 5 | `B_467` | [sovereign-contracts](https://github.com/marsojuji-cmyk/sovereign-contracts) | tooling | Release v1.0.0; tests green in CI; no committed evidence | commit an evidence file (+68) |
 | 6 | `B_429` | [interlock-forensics](https://github.com/marsojuji-cmyk/interlock-forensics) | evidence | AEGIS Day-30 gate due 2026-10-27; tag aegis-day30; evidence committed; no tests in CI | merge a code PR (+216) |
-| 7 | `B_412` | [governor](https://github.com/marsojuji-cmyk/governor) | authority | Tests green in CI; no release yet; no committed evidence | cut a release (+67) |
+| 7 | `B_411` | [governor](https://github.com/marsojuji-cmyk/governor) | authority | Tests green in CI; no release yet; no committed evidence | cut a release (+68) |
 | 8 | `C_394` | [the-register](https://github.com/marsojuji-cmyk/the-register) | evidence | No release yet; CI red; no committed evidence | get CI green (+96) |
 | 9 | `C_387` | [star-lab](https://github.com/marsojuji-cmyk/star-lab) | tooling | Release v0.1.0; tests green in CI; no committed evidence | commit an evidence file (+67) |
-| 10 | `C_367` | [agentready](https://github.com/marsojuji-cmyk/agentready) | tooling | No release yet; no tests in CI; no committed evidence | add tests that run green in CI (+96) |
+| 10 | `C_367` | [agentready](https://github.com/marsojuji-cmyk/agentready) | tooling | No release yet; no tests in CI; no committed evidence | add tests that run green in CI (+95) |
 | 11 | `C_283` | [exhibit](https://github.com/marsojuji-cmyk/exhibit) | evidence | Tests green in CI; evidence committed; no release yet | merge a code PR (+256) |
 | 12 | `D_181` | [atomic-admission](https://github.com/marsojuji-cmyk/atomic-admission) | authority | Evidence committed; no release yet; no tests in CI | merge a code PR (+125) |
 | 13 | `D_129` | [beacon](https://github.com/marsojuji-cmyk/beacon) | local | No release yet; no tests in CI; no committed evidence | merge a code PR (+255) |
@@ -34,7 +34,7 @@ Updated 2026-10-07 MT. Rank comes from shipping evidence: tests, releases, deadl
 
 A repo climbs by cutting a release, running tests green in CI, committing evidence, adding SECURITY.md and a "How it fails" section, carrying a dated deadline and landing code commits. Outside stars, forks, issues and PRs raise reach.
 
-S needs 800+, all four receipts and a deadline inside 30 days; at most 1 repo holds it. G is earned by the score alone, with no sign-off: 950+, every receipt, full quality marks, a deadline inside 30 days and 10+ outside people. One repo holds G at most, and keeps it while it stays at 900+.
+S needs 800+, all four receipts and a deadline inside 30 days; at most 1 repo holds it. G is earned by the score alone, with no sign-off: 900+ after pin bias, every receipt, full quality marks, a deadline inside 30 days and 10+ outside people. One repo holds G at most, and keeps it while it stays at 870+.
 <!-- PRISM:END -->
 
 ## Flagship projects
