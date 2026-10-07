@@ -6,7 +6,32 @@ Calgary, Alberta 🇨🇦 · [marcusrichards.dev](https://marcusrichards.dev)
 Agents are getting wallets, shells and credentials. I build the layer in between: what an agent is *allowed* to do, for how long, and what record it leaves. I prefer local-first tools with few dependencies, and READMEs that say what is proven and what isn't.
 
 <!-- Ranked section: filled by a separate Prism pass. Do not edit by hand between the markers. -->
-<!-- PRISM:START --><!-- PRISM:END -->
+<!-- PRISM:START -->
+## Ranked by Prism
+
+2026-10-07 MT. Rank is computed daily from shipping evidence: tests, releases, deadlines and outside activity.
+
+| # | Rank | Repo | Group | Why |
+|---|---|---|---|---|
+| 1 | `A_629` | [permit](https://github.com/marsojuji-cmyk/permit) | authority | Hackathon video due 2026-11-08; tests green in CI; 3 outside people active; no release yet |
+| 2 | `B_595` | [interlock](https://github.com/marsojuji-cmyk/interlock) | authority | Runs the live GitHub-write gate; release v0.1.0; tests green in CI; no committed evidence |
+| 3 | `B_499` | [reclamation-evidence-ledger](https://github.com/marsojuji-cmyk/reclamation-evidence-ledger) | local | Release v0.3.1; tests green in CI; evidence committed |
+| 4 | `B_444` | [ep-aec-conformance](https://github.com/marsojuji-cmyk/ep-aec-conformance) | evidence | Tests green in CI; evidence committed; no release yet |
+| 5 | `B_416` | [sovereign-contracts](https://github.com/marsojuji-cmyk/sovereign-contracts) | tooling | Release v1.0.0; tests green in CI; no committed evidence |
+| 6 | `B_412` | [interlock-forensics](https://github.com/marsojuji-cmyk/interlock-forensics) | evidence | AEGIS Day-30 gate due 2026-10-27; tag aegis-day30; evidence committed; no tests in CI |
+| 7 | `C_393` | [star-lab](https://github.com/marsojuji-cmyk/star-lab) | tooling | Release v0.1.0; tests green in CI; no committed evidence |
+| 8 | `C_386` | [the-register](https://github.com/marsojuji-cmyk/the-register) | evidence | Tests green in CI; no release yet; no committed evidence |
+| 9 | `C_348` | [governor](https://github.com/marsojuji-cmyk/governor) | authority | Tests green in CI; no release yet; no committed evidence |
+| 10 | `C_248` | [agentready](https://github.com/marsojuji-cmyk/agentready) | tooling | No release yet; no tests in CI; no committed evidence |
+| 11 | `D_188` | [atomic-admission](https://github.com/marsojuji-cmyk/atomic-admission) | authority | Evidence committed; no release yet; no tests in CI |
+| 12 | `D_184` | [exhibit](https://github.com/marsojuji-cmyk/exhibit) | evidence | Tests green in CI; evidence committed; no code changes in its last 5 commits |
+| 13 | `D_93` | [honestyield.dev](https://github.com/marsojuji-cmyk/honestyield.dev) | evidence | No release yet; no tests in CI; no committed evidence |
+| 14 | `D_88` | [intent-spec](https://github.com/marsojuji-cmyk/intent-spec) | tooling | No release yet; no tests in CI; no committed evidence |
+| 15 | `D_84` | [adversarial-seat](https://github.com/marsojuji-cmyk/adversarial-seat) | tooling | No release yet; no tests in CI; no committed evidence |
+| 16 | `D_83` | [quote-rescue](https://github.com/marsojuji-cmyk/quote-rescue) | local | No release yet; no tests in CI; no committed evidence |
+| 17 | `F_43` | [beacon](https://github.com/marsojuji-cmyk/beacon) | local | No code changes in its last 5 commits; no release yet; no tests in CI |
+| 18 | `F_15` | [hermes-refuse](https://github.com/marsojuji-cmyk/hermes-refuse) | authority | No code changes in its last 5 commits; no release yet; no tests in CI |
+<!-- PRISM:END -->
 
 ## Flagship projects
 
