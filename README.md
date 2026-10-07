@@ -9,28 +9,32 @@ Agents are getting wallets, shells and credentials. I build the layer in between
 <!-- PRISM:START -->
 ## Ranked by Prism
 
-2026-10-07 MT. Rank is computed daily from shipping evidence: tests, releases, deadlines and outside activity.
+Updated 2026-10-07 MT. Rank comes from shipping evidence: tests, releases, deadlines and outside activity. The table changes when the order or a tier changes.
 
-| # | Rank | Repo | Group | Why |
-|---|---|---|---|---|
-| 1 | `A_629` | [permit](https://github.com/marsojuji-cmyk/permit) | authority | Hackathon video due 2026-11-08; tests green in CI; 3 outside people active; no release yet |
-| 2 | `B_595` | [interlock](https://github.com/marsojuji-cmyk/interlock) | authority | Runs the live GitHub-write gate; release v0.1.0; tests green in CI; no committed evidence |
-| 3 | `B_499` | [reclamation-evidence-ledger](https://github.com/marsojuji-cmyk/reclamation-evidence-ledger) | local | Release v0.3.1; tests green in CI; evidence committed |
-| 4 | `B_444` | [ep-aec-conformance](https://github.com/marsojuji-cmyk/ep-aec-conformance) | evidence | Tests green in CI; evidence committed; no release yet |
-| 5 | `B_416` | [sovereign-contracts](https://github.com/marsojuji-cmyk/sovereign-contracts) | tooling | Release v1.0.0; tests green in CI; no committed evidence |
-| 6 | `B_412` | [interlock-forensics](https://github.com/marsojuji-cmyk/interlock-forensics) | evidence | AEGIS Day-30 gate due 2026-10-27; tag aegis-day30; evidence committed; no tests in CI |
-| 7 | `C_393` | [star-lab](https://github.com/marsojuji-cmyk/star-lab) | tooling | Release v0.1.0; tests green in CI; no committed evidence |
-| 8 | `C_386` | [the-register](https://github.com/marsojuji-cmyk/the-register) | evidence | Tests green in CI; no release yet; no committed evidence |
-| 9 | `C_348` | [governor](https://github.com/marsojuji-cmyk/governor) | authority | Tests green in CI; no release yet; no committed evidence |
-| 10 | `C_248` | [agentready](https://github.com/marsojuji-cmyk/agentready) | tooling | No release yet; no tests in CI; no committed evidence |
-| 11 | `D_188` | [atomic-admission](https://github.com/marsojuji-cmyk/atomic-admission) | authority | Evidence committed; no release yet; no tests in CI |
-| 12 | `D_184` | [exhibit](https://github.com/marsojuji-cmyk/exhibit) | evidence | Tests green in CI; evidence committed; no code changes in its last 5 commits |
-| 13 | `D_93` | [honestyield.dev](https://github.com/marsojuji-cmyk/honestyield.dev) | evidence | No release yet; no tests in CI; no committed evidence |
-| 14 | `D_88` | [intent-spec](https://github.com/marsojuji-cmyk/intent-spec) | tooling | No release yet; no tests in CI; no committed evidence |
-| 15 | `D_84` | [adversarial-seat](https://github.com/marsojuji-cmyk/adversarial-seat) | tooling | No release yet; no tests in CI; no committed evidence |
-| 16 | `D_83` | [quote-rescue](https://github.com/marsojuji-cmyk/quote-rescue) | local | No release yet; no tests in CI; no committed evidence |
-| 17 | `F_43` | [beacon](https://github.com/marsojuji-cmyk/beacon) | local | No code changes in its last 5 commits; no release yet; no tests in CI |
-| 18 | `F_15` | [hermes-refuse](https://github.com/marsojuji-cmyk/hermes-refuse) | authority | No code changes in its last 5 commits; no release yet; no tests in CI |
+| # | Rank | Repo | Group | Why | Next move |
+|---|---|---|---|---|---|
+| 1 | `A_700` | [permit](https://github.com/marsojuji-cmyk/permit) | authority | Hackathon video due 2026-11-08; tests green in CI; 3 outside people active; no release yet | cut a release (+67) |
+| 2 | `A_654` | [interlock](https://github.com/marsojuji-cmyk/interlock) | authority | Runs the live GitHub-write gate; release v0.1.0; tests green in CI; no committed evidence | commit an evidence file (+67) |
+| 3 | `B_599` | [reclamation-evidence-ledger](https://github.com/marsojuji-cmyk/reclamation-evidence-ledger) | local | Release v0.3.1; tests green in CI; evidence committed | add SECURITY.md (+28) |
+| 4 | `B_506` | [ep-aec-conformance](https://github.com/marsojuji-cmyk/ep-aec-conformance) | evidence | Tests green in CI; evidence committed; no release yet | cut a release (+68) |
+| 5 | `B_467` | [sovereign-contracts](https://github.com/marsojuji-cmyk/sovereign-contracts) | tooling | Release v1.0.0; tests green in CI; no committed evidence | commit an evidence file (+68) |
+| 6 | `B_429` | [interlock-forensics](https://github.com/marsojuji-cmyk/interlock-forensics) | evidence | AEGIS Day-30 gate due 2026-10-27; tag aegis-day30; evidence committed; no tests in CI | merge a code PR (+216) |
+| 7 | `B_412` | [governor](https://github.com/marsojuji-cmyk/governor) | authority | Tests green in CI; no release yet; no committed evidence | cut a release (+67) |
+| 8 | `C_394` | [the-register](https://github.com/marsojuji-cmyk/the-register) | evidence | No release yet; CI red; no committed evidence | get CI green (+96) |
+| 9 | `C_387` | [star-lab](https://github.com/marsojuji-cmyk/star-lab) | tooling | Release v0.1.0; tests green in CI; no committed evidence | commit an evidence file (+67) |
+| 10 | `C_367` | [agentready](https://github.com/marsojuji-cmyk/agentready) | tooling | No release yet; no tests in CI; no committed evidence | add tests that run green in CI (+96) |
+| 11 | `C_283` | [exhibit](https://github.com/marsojuji-cmyk/exhibit) | evidence | Tests green in CI; evidence committed; no release yet | merge a code PR (+256) |
+| 12 | `D_181` | [atomic-admission](https://github.com/marsojuji-cmyk/atomic-admission) | authority | Evidence committed; no release yet; no tests in CI | merge a code PR (+125) |
+| 13 | `D_129` | [beacon](https://github.com/marsojuji-cmyk/beacon) | local | No release yet; no tests in CI; no committed evidence | merge a code PR (+255) |
+| 14 | `D_108` | [intent-spec](https://github.com/marsojuji-cmyk/intent-spec) | tooling | No release yet; no tests in CI; no committed evidence | merge a code PR (+198) |
+| 15 | `D_90` | [honestyield.dev](https://github.com/marsojuji-cmyk/honestyield.dev) | evidence | No release yet; no tests in CI; no committed evidence | merge a code PR (+148) |
+| 16 | `F_77` | [adversarial-seat](https://github.com/marsojuji-cmyk/adversarial-seat) | tooling | No release yet; no tests in CI; no committed evidence | merge a code PR (+189) |
+| 17 | `F_76` | [quote-rescue](https://github.com/marsojuji-cmyk/quote-rescue) | local | No release yet; no tests in CI; no committed evidence | merge a code PR (+190) |
+| 18 | `F_13` | [hermes-refuse](https://github.com/marsojuji-cmyk/hermes-refuse) | authority | No recent code commits; no release yet; no tests in CI | merge a code PR (+212) |
+
+A repo climbs by cutting a release, running tests green in CI, committing evidence, adding SECURITY.md and a "How it fails" section, carrying a dated deadline and landing code commits. Outside stars, forks, issues and PRs raise reach.
+
+S needs 800+, all four receipts and a deadline inside 30 days; at most 1 repo holds it. G is earned by the score alone, with no sign-off: 950+, every receipt, full quality marks, a deadline inside 30 days and 10+ outside people. One repo holds G at most, and keeps it while it stays at 900+.
 <!-- PRISM:END -->
 
 ## Flagship projects
