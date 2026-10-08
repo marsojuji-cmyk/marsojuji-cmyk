@@ -1,7 +1,7 @@
 # Marcus Richards
 
 **I build guardrails for AI agents: spending limits, expiring authority, and a receipt for every claim.**
-Calgary, Alberta 🇨🇦 · [marcusrichards.dev](https://marcusrichards.dev)
+Calgary, Alberta 🇨🇦
 
 Agents are getting wallets, shells and credentials. I build the layer in between: what an agent is *allowed* to do, for how long, and what record it leaves. I prefer local-first tools with few dependencies, and READMEs that say what is proven and what isn't.
 
@@ -88,4 +88,4 @@ Each repo's README cites where its numbers come from.
 
 ## Get in touch
 
-Found a bug or have a question? Open an issue on the relevant repo. For anything else: [Contact@marcusrichards.dev](mailto:Contact@marcusrichards.dev) · [marcusrichards.dev](https://marcusrichards.dev).
+Found a bug or have a question? Open an issue on the relevant repo. For anything else: [Contact@marcusrichards.dev](mailto:Contact@marcusrichards.dev).
